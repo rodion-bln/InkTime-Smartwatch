@@ -12,15 +12,15 @@ Sistemul este organizat în jurul magistralei principale **I2C** (pentru senzori
 
 ## Bill of Materials (BOM) - Componente Cheie
 
-| Componentă | Descriere | Pachet | Link (JLC/SnapEDA) | Datasheet |
-| :--- | :--- | :--- | :--- | :--- |
-| **nRF52840** | Microcontroller BT 5.0 | aQFN-73 | [SnapEDA](https://www.snapeda.com/parts/NRF52840-QIAA-R/Nordic%20Semiconductor/view-part/) | [PDF](https://infocenter.nordicsemi.com/pdf/nRF52840_PS_v1.7.pdf) |
-| **BQ25180** | Battery Charger IC | WLCSP-8 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DBQ25180YBGR) | [PDF](https://www.ti.com/lit/ds/symlink/bq25180.pdf) |
-| **MAX17048** | Fuel Gauge (ModelGauge) | WLP-8 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DMAX17048G%252BT10) | [PDF](https://www.google.com/search?q=https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf) |
-| **RT6160** | Buck-Boost Converter | WL-CSP-15 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DRT6160AWSC) | [PDF](https://www.google.com/search?q=https://www.richtek.com/assets/product_file/RT6160A/DS6160A-02.pdf) |
-| **DRV2605L** | Haptic Driver | VSSOP-10 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DDRV2605YZFR) | [PDF](https://www.ti.com/lit/ds/symlink/drv2605l.pdf) |
-| **E-Paper** | 1.54" V2 Display | FPC-24 | [JLC Parts](https://www.google.com/search?q=https://www.lcsc.com/product-detail/C440307.html) | [PDF](https://www.google.com/search?q=https://www.waveshare.com/w/upload/e/e6/1.54inch_e-Paper_Datasheet.pdf) |
-| **2450AT** | Antenă Ceramică Chip | 3.2x1.6mm | [Comp. Search](https://componentsearchengine.com/search?term=2450AT18B100E) | [PDF](https://www.johansontechnology.com/datasheets/2450AT18B100/2450AT18B100.pdf) |
+| Componentă | Descriere | Pachet | Link (JLC/SnapEDA) |
+| :--- | :--- | :--- | :--- |
+| **nRF52840** | Microcontroller BT 5.0 | aQFN-73 | [SnapEDA](https://www.snapeda.com/parts/NRF52840-QIAA-R/Nordic%20Semiconductor/view-part/) |
+| **BQ25180** | Battery Charger IC | WLCSP-8 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DBQ25180YBGR) |
+| **MAX17048** | Fuel Gauge (ModelGauge) | WLP-8 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DMAX17048G%252BT10) |
+| **RT6160** | Buck-Boost Converter | WL-CSP-15 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DRT6160AWSC) |
+| **DRV2605L** | Haptic Driver | VSSOP-10 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DDRV2605YZFR) |
+| **E-Paper** | 1.54" V2 Display | FPC-24 | [JLC Parts](https://www.google.com/search?q=https://www.lcsc.com/product-detail/C440307.html) |
+| **2450AT** | Antenă Ceramică Chip | 3.2x1.6mm | [Comp. Search](https://componentsearchengine.com/search?term=2450AT18B100E) |
 
 -----
 
