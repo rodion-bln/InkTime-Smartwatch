@@ -4,7 +4,7 @@
 
 
 
-## 🛠 Pașii de Implementare
+## Pașii de Implementare
 
 ### 1. Proiectarea Schemei Electronice (Hardware)
 * **Managementul Puterii:** Implementarea unui circuit de încărcare Li-Po via USB-C și reglarea tensiunii la 3.3V pentru procesor și display.
