@@ -30,9 +30,6 @@
 * **Motivul:** Pentru a evita utilizarea tehnologiei "Blind/Buried Vias" (care ar fi triplat costul de fabricare a PCB-ului), s-a lucrat la limita inferioară a capabilităților fabricii (0.15mm clearance).
 * **Justificare:** Aceste suprapuneri minore sunt sigure pentru procesul de asamblare industrială și permit rutarea semnalelor critice către straturile interne (Layer 2 și 16) fără a lungi traseele, ceea ce ar fi indus zgomot electric.
 
-### Planul de Masă
-S-a decis păstrarea acestui strat exclusiv pentru **Signal GND**, fără a trece trasee de semnal prin el. Acest lucru garantează o cale de întoarcere a curentului (return path) curată pentru antena Bluetooth.
-
 ---
 
 ## Specificații Tehnice
