@@ -6,8 +6,62 @@
 
 ## Diagrama Bloc a Sistemului
 
-Sistemul este organizat în jurul magistralei principale **I2C** (pentru senzori și power management) și a magistralei **SPI** dedicate afișajului. Alimentarea este reglată printr-un sistem Buck-Boost pentru a maximiza durata de viață a bateriei.
+```mermaid
+flowchart TD
+    subgraph PCB_InkTime_v6 [InkTime v6 - 2D Layout Map]
+        direction TB
 
+        subgraph Top_Edge [Marginea de Sus - Alimentare]
+            USB_C[Port USB-C]
+            BAT_PADS[Pad-uri Baterie Li-Po]
+            PMIC[Circuit Incarcare BQ25180]
+        end
+
+        %% Centrul Plăcii
+        subgraph Center_Area [Nucleu Central]
+            MCU[nRF52840 SoC]
+            XTAL[Oscilatoare 32MHz / 32kHz]
+        end
+
+        subgraph Left_Side [Interfata Vizuala]
+            DISPLAY_FPC[Conector Display FPC]
+            V_REG[Regulator RT6160]
+        end
+
+        subgraph Right_Side [Comunicatii RF]
+            ANT[Antena Chip Johanson]
+            MATCH[Circuit Matching RF]
+        end
+
+        subgraph Bottom_Edge [Interfata Programare si Haptic]
+            SWD[Pad-uri SWD / Tag-Connect]
+            HAPTIC[Driver Haptic + Motor]
+            TP_SDA[TP SDA]
+            TP_SCL[TP SCL]
+        end
+
+        USB_C --> PMIC
+        PMIC <--> BAT_PADS
+        PMIC --> V_REG --> MCU
+        
+        MCU -- SPI --> DISPLAY_FPC
+        MCU -- I2C --> HAPTIC
+        MCU -- I2C --> TP_SDA
+        MCU -- I2C --> TP_SCL
+        
+        MCU -- Traseu 50 Ohm --> MATCH --> ANT
+        SWD <--> MCU
+        XTAL --- MCU
+    end
+
+    %% Stiluri pentru a potrivi vizual cu imaginea
+    style MCU fill:#d11,stroke:#333,stroke-width:2px,color:#fff
+    style PCB_InkTime_v6 fill:#37474f,stroke:#fff,stroke-width:2px,color:#fff
+    style ANT fill:#000,stroke:#f00,color:#fff
+    style USB_C fill:#999,stroke:#333
+    style SWD fill:#fbc02d,stroke:#333
+    style DISPLAY_FPC fill:#546e7a,stroke:#fff,color:#fff
+```
 -----
 
 ## Bill of Materials (BOM) - Componente Cheie
