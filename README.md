@@ -12,15 +12,15 @@ Sistemul este organizat în jurul magistralei principale **I2C** (pentru senzori
 
 ## Bill of Materials (BOM) - Componente Cheie
 
-| Componentă | Descriere | Pachet | Link (JLC/SnapEDA) |
+| Componentă | Descriere | Pachet | Link (CSE/SnapEDA) |
 | :--- | :--- | :--- | :--- |
 | **nRF52840** | Microcontroller BT 5.0 | aQFN-73 | [SnapEDA](https://www.snapeda.com/parts/NRF52840-QIAA-R/Nordic%20Semiconductor/view-part/) |
-| **BQ25180** | Battery Charger IC | WLCSP-8 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DBQ25180YBGR) |
-| **MAX17048** | Fuel Gauge (ModelGauge) | WLP-8 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DMAX17048G%252BT10) |
-| **RT6160** | Buck-Boost Converter | WL-CSP-15 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DRT6160AWSC) |
-| **DRV2605L** | Haptic Driver | VSSOP-10 | [SnapEDA](https://www.google.com/search?q=https://www.snapeda.com/search/%3Fq%3DDRV2605YZFR) |
-| **E-Paper** | 1.54" V2 Display | FPC-24 | [JLC Parts](https://www.google.com/search?q=https://www.lcsc.com/product-detail/C440307.html) |
-| **2450AT** | Antenă Ceramică Chip | 3.2x1.6mm | [Comp. Search](https://componentsearchengine.com/search?term=2450AT18B100E) |
+| **BQ25180** | Battery Charger IC | WLCSP-8 | [CSE](https://componentsearchengine.com/search?term=BQ25180) |
+| **MAX17048** | Fuel Gauge (ModelGauge) | WLP-8 | [CSE](https://componentsearchengine.com/search?term=MAX17048) |
+| **RT6160** | Buck-Boost Converter | WL-CSP-15 | [CSE](https://componentsearchengine.com/search?term=RT6160) |
+| **DRV2605L** | Haptic Driver | VSSOP-10 | [CSE](https://componentsearchengine.com/search?term=DRV2605L) |
+| **E-Paper Display Connector** | 1.54" V2 Display | FPC-24 | [CSE](https://componentsearchengine.com/search?term=5034802400) |
+| **2450AT** | Antenă Ceramică Chip | 3.2x1.6mm | [CSE](https://componentsearchengine.com/search?term=2450AT18B100E) |
 
 -----
 
